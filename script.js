@@ -100,12 +100,115 @@
     //     console.log(firstArray[i])
     // }
     
-    const firstArray = [1,2,3]
+    // const firstArray = [1,2,3]
 
-    function logThing(str){
-        console.log(str);
-    }
+    // function logThing(str){
+    //     console.log(str);
+    // }
 
-    firstArray.forEach(logThing)
+    // firstArray.forEach(logThing)
     
 
+// class Animal {
+//     constructor(name, legCount, speaks){
+//         this.name = name;
+//         this.legCount = legCount;
+//         this.speaks = speaks;
+//     }
+//     static myType(){
+//         console.log("Animal")
+//     }
+//     speak(){
+//         console.log("hi there " + this.speaks)
+//     }
+// } 
+// console.log(Animal.speak());
+
+
+// let dog = new Animal("dog", 4, "bhow bhow")
+// let cat = new Animal("cat", 4, "meow")
+// dog.speak();
+
+// const currentDate = new Date();
+
+// console.log(currentDate.getMonth()+1);
+// console.log(currentDate.getFullYear ());
+ 
+
+// const user = {
+//     name: "Boruto",
+//     gender: "male"
+// }
+
+// const finalString = JSON.stringify(user)
+// console.log(finalString)
+
+// const user = '{"name":"Boruto","gender":"male"}'
+// const finalJson = JSON.parse(user)
+// console.log(finalJson["gender"])
+
+// Loops
+
+// let ans = 0;
+
+//for(let i = 1; i <= 50; i++){
+//   ans = ans + 1;
+//}
+
+// console.log(ans);
+
+// Functions
+
+// function findSum(n){
+// let ans = 0;
+//for (let i = 1; i<n; i++){
+ // ans = ans+i   
+//}
+    // return ans;
+//}
+
+// let ans = finsSum(100)
+// console.log(ans);
+
+
+// Callback function
+
+// function sqaure(a){
+//     return a *a 
+// }
+
+// function sumOfSomething(a,b,fn){
+//     const val1 = fn(a);
+//     const val2 = fn(b);
+//     return val1 + val2
+// }
+
+// sumOfSomething(a,b,sqaure)
+
+
+// function sqaure(n){
+//     return n*n
+// }
+// function cube(n){
+//     return n*n*n
+// }
+
+
+// function sumOfSomething(a,b,callback){
+//     console.log(a);
+//     console.log(callback);
+//     const val1 = callback(a)
+//     const val2 = callback(b)
+//     return val1 + val2
+// }
+
+// const ans = sumOfSomething(2,2,cube)
+// console.log(cube);
+
+
+// anonymous function
+
+// const ans = sumOfSomething(2,2,function(n){
+//       return n*n
+//})
+// console.log(cube);
